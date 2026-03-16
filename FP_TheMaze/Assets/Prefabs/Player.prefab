@@ -63,7 +63,7 @@ Transform:
   m_GameObject: {fileID: 1726830992389805884}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: 294ac770a3d06444ba9fcca011f2a759, type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: f9be3b024fc922649906acee8160dff2, type: 3}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_DefaultControlScheme: 
   m_DefaultActionMap: MapaGameplya
   m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 4384279540739772010}
 --- !u!114 &3471008715667691147
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +280,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1726830992389805884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ca4e6a8a3b152b42b915f248973b78c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e87a78209364e84e83ec268daa0c00e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FP_Controller
   camHolder: {fileID: 6971207667552614809}
@@ -294,7 +294,7 @@ MonoBehaviour:
   groundCheckRadius: 0.3
   groundLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   groundCheck: {fileID: 4289803691681064677}
   isSprinting: 0
   isCrouching: 0
@@ -329,14 +329,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1726830992389805884}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c06d33985677e14c9cf5d7da6aa6cb6, type: 3}
+  m_Script: {fileID: 11500000, guid: a54877e3b5e060a4b8a6678a0f537b91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GunSystem
   fpsCam: {fileID: 4384279540739772010}
-  shootPoint: {fileID: 0}
+  shootPoint: {fileID: 2603677266139169209}
   impactLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 4294967295
   damage: 10
   range: 100
   spread: 0
