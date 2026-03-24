@@ -312,18 +312,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bfb627d7fe18834b83665f725dfbead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  agent: {fileID: 7950180192927404641}
+  agent: {fileID: 0}
   target: {fileID: 0}
   targetLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 128
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   walkPointRange: 8
   timeBdetweenAttacks: 1
   projectile: {fileID: 4159874078057551593, guid: efb8e90c428fd74428df67f168ce105f, type: 3}
-  shootPoint: {fileID: 0}
+  shootPoint: {fileID: 6807791248671531236}
   shootSpeedY: 0
   shootSpeedZ: 10
   sightRange: 10
@@ -369,9 +369,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAIBase
   maxHealth: 100
   health: 0
-  damageMat: {fileID: 0}
-  deathVfx: {fileID: 0}
-  enemyRend: {fileID: 0}
+  damageMat: {fileID: 2100000, guid: 801544405b4226541906435f1ae7df73, type: 2}
+  deathVfx: {fileID: 2901352466197732594, guid: 6d2e8d5f424743840b93073bb95b9e07, type: 3}
+  enemyRend: {fileID: 920187080105480083}
 --- !u!1 &7667542128893826404
 GameObject:
   m_ObjectHideFlags: 0
