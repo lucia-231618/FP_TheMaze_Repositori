@@ -189,7 +189,7 @@ GameObject:
   - component: {fileID: 7450448111687523407}
   m_Layer: 0
   m_Name: PF_EnemyProto 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -309,14 +309,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 7459691198911073596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb06e734111dce46b999d48b5bc6f0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8bfb627d7fe18834b83665f725dfbead, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
-  maxHealth: 100
-  health: 0
-  damageMat: {fileID: 2100000, guid: 801544405b4226541906435f1ae7df73, type: 2}
-  deathVfx: {fileID: 4046350669678936053}
-  enemyRend: {fileID: 920187080105480083}
+  agent: {fileID: 7950180192927404641}
+  target: {fileID: 0}
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  walkPointRange: 8
+  timeBdetweenAttacks: 1
+  projectile: {fileID: 4159874078057551593, guid: efb8e90c428fd74428df67f168ce105f, type: 3}
+  shootPoint: {fileID: 0}
+  shootSpeedY: 0
+  shootSpeedZ: 10
+  sightRange: 10
+  attackRange: 4
+  targetInSightRange: 0
+  targetInAttackRange: 0
+  stuckCheckTime: 2
+  stuckThreshold: 0.1
+  maxStuckDuration: 3
 --- !u!195 &7950180192927404641
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -348,30 +364,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 7459691198911073596}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3e026b0184c936c40ab6fc25b3221e64, type: 3}
+  m_Script: {fileID: 11500000, guid: 95af8c374870966498c57c6d506033bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAIBase
-  agent: {fileID: 0}
-  target: {fileID: 0}
-  targetLayer:
-    serializedVersion: 2
-    m_Bits: 128
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 8
-  walkPointRange: 8
-  timeBdetweenAttacks: 1
-  projectile: {fileID: 4159874078057551593, guid: efb8e90c428fd74428df67f168ce105f, type: 3}
-  shootPoint: {fileID: 6807791248671531236}
-  shootSpeedY: 0
-  shootSpeedZ: 10
-  sightRange: 10
-  attackRange: 4
-  targetInSightRange: 0
-  targetInAttackRange: 0
-  stuckCheckTime: 2
-  stuckThreshold: 0.1
-  maxStuckDuration: 3
+  maxHealth: 100
+  health: 0
+  damageMat: {fileID: 0}
+  deathVfx: {fileID: 0}
+  enemyRend: {fileID: 0}
 --- !u!1 &7667542128893826404
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,10 +467,5 @@ PrefabInstance:
 --- !u!4 &2008559873758134465 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 845546830560109510, guid: 6d2e8d5f424743840b93073bb95b9e07, type: 3}
-  m_PrefabInstance: {fileID: 1181116062050755335}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4046350669678936053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2901352466197732594, guid: 6d2e8d5f424743840b93073bb95b9e07, type: 3}
   m_PrefabInstance: {fileID: 1181116062050755335}
   m_PrefabAsset: {fileID: 0}
