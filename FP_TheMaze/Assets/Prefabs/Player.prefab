@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: f9be3b024fc922649906acee8160dff2, type: 3}
+  m_Actions: {fileID: 0}
   m_NotificationBehavior: 2
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
@@ -294,7 +294,7 @@ MonoBehaviour:
   groundCheckRadius: 0.3
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   groundCheck: {fileID: 4289803691681064677}
   isSprinting: 0
   isCrouching: 0
@@ -333,10 +333,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GunSystem
   fpsCam: {fileID: 4384279540739772010}
-  shootPoint: {fileID: 2603677266139169209}
+  shootPoint: {fileID: 0}
   impactLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 64
   damage: 10
   range: 100
   spread: 0
