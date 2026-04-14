@@ -300,9 +300,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall_Inside_2 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7319895855122349165, guid: 7deac6f0e87249c448afcd956523cb7c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2783686258234649748, guid: 7deac6f0e87249c448afcd956523cb7c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1277340642}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7deac6f0e87249c448afcd956523cb7c, type: 3}
 --- !u!4 &121090907 stripped
@@ -915,6 +922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14
@@ -1084,6 +1095,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: -38
@@ -1140,6 +1155,10 @@ PrefabInstance:
     - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_Name
       value: door with column  (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1259,6 +1278,10 @@ PrefabInstance:
     - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_Name
       value: door with column  (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1513,6 +1536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1756,6 +1783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -1801,6 +1832,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+--- !u!1001 &498769890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 121090907}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100.00004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.00004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_Name
+      value: column 3 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
 --- !u!4 &514111873 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
@@ -1880,6 +1980,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6
@@ -1938,6 +2042,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 782209603}
     m_Modifications:
+    - target: {fileID: 1186998590102142626, guid: 02da9b401e097f4428690502b0e22a0d, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4610096756445019516, guid: 02da9b401e097f4428690502b0e22a0d, type: 3}
       propertyPath: m_Name
       value: Wall_Inside_1 (28)
@@ -2190,6 +2298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2
@@ -2246,6 +2358,10 @@ PrefabInstance:
     - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_Name
       value: door with column  (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2365,6 +2481,10 @@ PrefabInstance:
     - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_Name
       value: door with column  (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4635,6 +4755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -5120,6 +5244,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8517298449167596570, guid: 02da9b401e097f4428690502b0e22a0d, type: 3}
   m_PrefabInstance: {fileID: 1277298954}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1277340642 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 970c448fe18af6347968816ba93e8a00, type: 3}
+  m_PrefabInstance: {fileID: 498769890}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1279182579
 PrefabInstance:
@@ -5942,6 +6071,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22
@@ -6424,6 +6557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22
@@ -6667,6 +6804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22
@@ -6790,6 +6931,10 @@ PrefabInstance:
     - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_Name
       value: door with column  (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7348,6 +7493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: door with column  (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18
@@ -7471,6 +7620,10 @@ PrefabInstance:
     - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_Name
       value: door with column  (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 671057644677134449, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7152437287109659342, guid: 19df266ad320a9e4b831ad27e7c75c11, type: 3}
       propertyPath: m_LocalPosition.x
